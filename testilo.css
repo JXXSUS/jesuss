@@ -1,0 +1,36 @@
+body{
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23bd99f6' fill-opacity='0.75'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+table{
+    width: 80%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td{
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.3cm;
+}
+caption{
+    padding: 0.3cm;
+    color: aquamarine;
+    background: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 400%;
+}
+thead, th{
+    background: rgb(253, 255, 160);
+    font-size: 100%;
+}
+img{
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
