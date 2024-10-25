@@ -99,3 +99,41 @@
         color: rgb(0, 0, 0);
         text-align: justify;
     }
+    nav ul li {
+        position: relative;
+    }
+    
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #007bff;
+        padding: 10px 0;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+    }
+    
+    nav ul li:hover ul {
+        display: block;
+    }
+    
+    nav ul li ul li {
+        margin: 0;
+    }
+    
+    nav ul li ul li a {
+        display: block;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        text-align: left;
+        box-sizing: border-box;
+    }
+    
+    nav ul li ul li a:hover {
+        background-color: #0056b3;
+    }
+    
