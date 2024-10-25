@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    background: #000;
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px auto;
+}
+
+ul, ol {
+    list-style:none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav > li {
+    float:left;
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    font-size: 60%;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+body{
+    background-image: url(imgform/fondoblanco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+table{
+    width: 80%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td{
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.3cm;
+}
+caption{
+    padding: 0.3cm;
+    color: aquamarine;
+    background: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 200%;
+}
+thead, th{
+    background: rgb(253, 255, 160);
+    font-size: 150%;
+}
+img{
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+label{
+    background: #000;
+    display: inline-block;
+    font-size: 300%;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;   
+
+}
