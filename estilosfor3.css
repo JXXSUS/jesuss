@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    background-image: url(imgform/floor-tile.png) ;
+}
+
+form {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(161, 20, 20, 0.1);
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 1px;
+    display: block;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
